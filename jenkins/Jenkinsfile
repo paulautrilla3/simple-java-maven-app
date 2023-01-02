@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo "The pipeline is completed!wiii"
+                echo "You are in multibranch branch"
             }
         }
     }
